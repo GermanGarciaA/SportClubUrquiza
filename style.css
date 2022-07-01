@@ -1,0 +1,468 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* CONTENEDORES GENERALES */
+
+.containerSection{
+    border: solid 10px rgb(255, 255, 255);
+    line-height: 35px;
+    border-radius: 40px;
+}
+
+.containerSection h1{
+    text-align: center;
+    font-size: 70px;
+    margin: 40px 0px 40px 0px;
+}
+
+.containerSection h2{
+    text-align: center;
+    font-size: 80px;
+    margin: 40px 0px 40px 0px;
+}
+
+.containerSectionDiv h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 2px;
+}
+
+.containerSectionDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerSectionDiv2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerSectionGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px 10px;
+    justify-items: center;
+}
+
+.containerSectionGrid h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 2px;
+}
+
+.containerTitulos{
+    font-size: 35px;
+    background-color: rgb(219, 72, 72);
+}
+
+/* ETIQUETAS */
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 68px;
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+    font-weight: 600;
+    text-align: center;
+    font-size: 60px;
+}
+
+h3{
+    font-family: 'Staatliches', cursive;
+    font-style: italic;
+}
+
+p{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 20px; 
+}
+
+ul{
+    list-style-type: none;
+}
+
+.boton{
+    background-color: rgb(244, 241, 81);
+    width: fit-content;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 4px;
+    margin: 1px auto;
+}
+
+.boton a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* HEADER */
+
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* NAVEGADOR */
+
+.navegador{
+    font-family: 'Staatliches', cursive;
+    width: calc(100% - 100px);
+}
+
+.navegador ul{
+    background-color: rgb(244, 241, 81);
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegador li{
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    padding: 12px;
+}
+
+.navegador li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.logoHeader{
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+    border-radius: 45px;
+    margin: 7px;
+}
+
+/* SECION 0 (IMAGEN DE FONDO)  */
+
+.containerFondo{
+    background-color: rgba(255, 255, 255);
+    background-image: url(./img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border: solid 10px rgb(255, 255, 255);
+    line-height: 35px;
+    border-radius: 40px;
+    margin-top: -15px;
+
+    height: 30rem;
+}
+
+/* SECCION 1 (PLANES) */
+
+.containerPlanes{
+    width: 600px;
+    border: solid 3px rgb(244, 241, 81);
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(219, 72, 72);
+}
+
+.fondoPlanes{
+    height: 650px;
+    width: 400px;
+    border: solid 1px rgb(219, 72, 72);
+}
+
+.fondoPlanes2{
+    height: 750px;
+    width: 500px;
+    padding: 5px;
+    border: solid 3px rgb(244, 241, 81);
+}
+
+/* SECCION 2 (CLASES Y PROFESORES) */
+
+.containerClases{
+    width: 450px;
+    border: solid 1px rgb(219, 72, 72);
+    padding: 20px;
+    margin: 20px;
+}
+
+.fondoClases{
+    height: 300px;
+    width: 300px;
+    border: solid 1px rgb(219, 72, 72);
+}
+
+.fondoClases2{
+    height: 300px;
+    width: 300px;
+    border: solid 3px rgb(219, 72, 72);
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px black; 
+}
+
+/* SECCION 3 (ESPACIOS) */
+
+.containerEspacios{
+    width: 550px;
+    border: solid 1px rgb(219, 72, 72);
+    padding: 20px;
+    margin: 20px;
+}
+
+.fondoEspacios{
+    height: 400px;
+    width: 400px;
+    border: solid 1px rgb(219, 72, 72);
+}
+
+.fondoEspacios2{
+    height: 400px;
+    width: 400px;
+    border: solid 3px rgb(219, 72, 72);
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px black; 
+}
+
+/* SECCION 4 (CONTACTO) */
+
+.fondoContacto{
+    height: 300px;
+    width: 400px;
+    border: solid 1px rgb(219, 72, 72);
+}
+
+.fondoContacto2{
+    height: 150px;
+    width: 200px;
+    border: solid 5px black;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.fondoFormulario{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    font-weight:bolder;
+}
+
+/* SECCION FOOTER */
+
+.fondoLogos{
+    height: 100px;
+}
+
+/* MEDIA QUERIES TABLET */
+
+/* CONTENEDORES GENERALES */
+
+@media screen and (max-width: 768px){
+    .containerSectionDiv{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .containerSectionGrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .containerSectionDiv2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* ETIQUETAS */
+
+    .boton{
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+
+    .boton a {
+        font-size: 26px;
+    }
+
+/* HEADER */
+
+    header{
+        flex-direction: column;
+    }
+
+    .navegador{
+        width: 100%;
+    }
+
+    .navegador ul{
+        padding: 0%;
+    }
+
+    .navegador li{  
+        padding: 0%;
+    }
+
+    .navegador li a{
+        font-size: 26px;
+    }
+
+/* FOOTER */
+
+    .containerSectionDiv footer{
+        display: flex;
+        background-color: red;
+    }
+
+    footer .containerSectionDiv{
+        flex-direction: row;
+    }
+}
+
+/* MEDIA QUERIES MOBILE */
+
+/* CONTENEDORES GENERALES */
+
+@media screen and (max-width: 320px){
+    .containerSectionGrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .containerSectionDiv{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0%;    
+    }
+
+    .containerSectionDiv img{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .containerSection h2{
+        font-size: 44px;
+    }
+
+/* ETIQUETAS */
+
+    h2{
+        font-size: 50px;
+    }
+
+/* HEADER */
+
+    header{
+        flex-direction: column;
+    }
+
+    .navegador ul{
+        flex-direction: column;
+    }
+
+    .navegador li{
+        margin: 3px;
+    }
+
+/* SECCION 0 */
+
+    .containerFondo{
+        height: 20rem;
+    }
+
+/* PAGINA 2 (PLANES) */
+
+    .containerPlanes{
+        width: auto;
+        padding: 10px;
+    }
+
+    .containerPlanes h2{
+        font-size: 50px;
+    }
+
+    .fondoPlanes{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .fondoPlanes2{
+        max-width: 100%;
+        height: auto;
+    }
+
+/* PAGINA 3 (CLASES Y PROFESORES) */
+
+    .containerClases{
+        width: auto;
+        padding: 10px;
+    }
+
+    .containerClases h2{
+        font-size: 52px;
+    }
+
+    .fondoClases2{
+        box-shadow: 5px 5px 5px black;
+    }
+
+/* PAGINA 4 (ESPACIOS) */
+
+    .containerEspacios{
+        width: auto;
+        padding: 10px;
+    }
+
+    .containerEspacios h2{
+        font-size: 40px;
+    }
+
+    .fondoEspacios2{
+        max-width: 100%;
+        box-shadow: 5px 5px 5px black;
+    }
+
+/* PAGINA 5 (CONTACTO) */
+
+    .fondoFormulario{
+        text-align: center;
+    }
+
+/* FOOTER */
+
+    footer ul{
+        margin: 0%;
+    }
+
+    footer .containerSectionDiv{
+        flex-direction: row;
+    }
+
+    footer .containerSectionDiv img{
+        height: 75px;
+        margin: 0%;
+    }
+}
