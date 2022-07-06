@@ -210,12 +210,11 @@ header{
     height: 300px;
     width: 300px;
     border: solid 1px rgb(219, 72, 72);
-
-    transition: all 1s;
 }
 
 .fondoClases:hover{
     transform: scale(1.1);
+    transition: transform 1s ease;
 }
 
 .fondoClases2{
