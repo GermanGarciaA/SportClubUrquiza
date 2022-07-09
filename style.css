@@ -82,6 +82,13 @@ h3{
     font-style: italic;
 }
 
+h4{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.745);
+}
+
 p{
     font-family: 'Staatliches', cursive;
     text-align: center;
@@ -266,12 +273,6 @@ header{
 /* SECCION 4 (CONTACTO) */
 
 .fondoContacto{
-    height: 300px;
-    width: 400px;
-    border: solid 1px rgb(219, 72, 72);
-}
-
-.fondoContacto2{
     height: 150px;
     width: 200px;
     border: solid 5px black;
@@ -289,6 +290,24 @@ header{
 }
 
 /* SECCION FOOTER */
+
+footer{
+    padding: 10px;
+    background-color: #e1e1e1;
+    border-top: 1px solid black;
+    margin-top: 30px;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+footer ul li{
+    margin: 5px 10px;
+    width: 60px;
+}
 
 .fondoLogos{
     height: 100px;
@@ -334,17 +353,6 @@ header{
     .navegador li{  
         margin: -15px;
     }
-
-/* FOOTER */
-
-    .containerSectionDiv footer{
-        display: flex;
-        background-color: red;
-    }
-
-    footer .containerSectionDiv{
-        flex-direction: row;
-    }
 }
 
 /* MEDIA QUERIES MOBILE */
@@ -384,27 +392,6 @@ header{
         height: 20rem;
     }
 
-/* PAGINA 2 (PLANES) */
-
-    .containerPlanes{
-        width: auto;
-        padding: 10px;
-    }
-
-    .containerPlanes h2{
-        font-size: 50px;
-    }
-
-    .fondoPlanes{
-        max-width: 100%;
-        height: auto;
-    }
-
-    .fondoPlanes2{
-        max-width: 100%;
-        height: auto;
-    }
-
 /* PAGINA 3 (CLASES Y PROFESORES) */
 
     .containerClases{
@@ -440,20 +427,5 @@ header{
 
     .fondoFormulario{
         text-align: center;
-    }
-
-/* FOOTER */
-
-    footer ul{
-        margin: 0%;
-    }
-
-    footer .containerSectionDiv{
-        flex-direction: row;
-    }
-
-    footer .containerSectionDiv img{
-        height: 75px;
-        margin: 0%;
     }
 }
