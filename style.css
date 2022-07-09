@@ -71,26 +71,28 @@ h1{
 }
 
 h2{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', 'cursive';
     text-align: center;
     line-height: 1.6;
     font-size: 60px;
 }
 
 h3{
-    font-family: 'Staatliches', cursive;
-    font-style: italic;
+    font-family: 'Staatliches', 'cursive';
+    text-align: center;
+    font-size: 45px;
+    margin: 3px;
 }
 
 h4{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', 'cursive';
     text-align: center;
     font-size: 50px;
     color: rgba(255, 0, 0, 0.745);
 }
 
 p{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', 'cursive';
     text-align: center;
     font-size: 20px; 
 }
@@ -196,54 +198,13 @@ header{
 
 /* SECCION 1 (PLANES) */
 
-.containerPlanes{
-    width: 600px;
-    border: solid 3px rgb(244, 241, 81);
-    padding: 20px;
-    margin: 20px;
-    background-color: rgb(219, 72, 72);
+.botonPlanes a{
+    text-decoration: none;
+    color: rgb(219, 72, 72);
 }
 
-.fondoPlanes{
-    height: 650px;
-    width: 400px;
-    border: solid 1px rgb(219, 72, 72);
-}
-
-.fondoPlanes2{
-    height: 750px;
-    width: 500px;
-    padding: 5px;
-    border: solid 3px rgb(244, 241, 81);
-}
-
-/* SECCION 2 (CLASES Y PROFESORES) */
-
-.containerClases{
-    width: 450px;
-    border: solid 1px rgb(219, 72, 72);
-    padding: 20px;
-    margin: 20px;
-}
-
-.fondoClases{
-    height: 300px;
-    width: 300px;
-    border: solid 1px rgb(219, 72, 72);
-}
-
-.fondoClases:hover{
-    transform: scale(1.1);
-    transition: transform 1s ease;
-}
-
-.fondoClases2{
-    height: 300px;
-    width: 300px;
-    border: solid 3px rgb(219, 72, 72);
-    margin-top: 10px;
-    padding: 5px;
-    box-shadow: 10px 10px 10px black; 
+.botonPlanes a:hover{
+    text-decoration: underline;
 }
 
 /* SECCION 3 (ESPACIOS) */
@@ -384,6 +345,10 @@ footer ul li{
 
     h2{
         font-size: 50px;
+    }
+
+    h3{
+        font-size: 35px;
     }
 
 /* SECCION 0 */
