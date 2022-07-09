@@ -20,7 +20,7 @@
 
 .containerSectionDiv h3{
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     margin: 2px;
 }
 
@@ -93,23 +93,29 @@ ul{
 }
 
 .boton{
-    background-color: rgb(244, 241, 81);
-    width: fit-content;
-    border: solid 3px rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 4px;
-    margin: 1px auto;
+    text-align: center;
+    margin: 20px auto;
 }
 
 .boton a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 500;
-    font-size: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+
+    background-color: rgb(244, 241, 81);
+    width: fit-content;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin: 20px auto;
 }
 
 .boton a:hover{
-    text-decoration: underline;
+    color: rgb(244, 241, 81);
+    background-color: black;
 }
 
 /* HEADER */
@@ -159,8 +165,10 @@ header{
     height: 100px;
     width: 100px;
     border: solid 1px black;
-    border-radius: 45px;
+    border-radius: 100%;
     margin: 7px;
+    padding: 5px;
+    overflow: hidden;
 }
 
 /* SECION 0 (IMAGEN DE FONDO)  */
@@ -368,12 +376,6 @@ header{
 
     h2{
         font-size: 50px;
-    }
-
-/* HEADER */
-
-    .navegador li{
-        margin: -5px;
     }
 
 /* SECCION 0 */
