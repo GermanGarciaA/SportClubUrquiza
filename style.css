@@ -1,9 +1,3 @@
-/* *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-} */
-
 /* CONTENEDORES GENERALES */
 
 .containerSection{
@@ -279,15 +273,18 @@ header{
 
 .fondoFormulario{
     text-align: left;
-    font-size: 15px;
-    font-family: 'Merriweather', serif;
+    font-size: 20px;
     font-weight:bolder;
+    padding: 50px;
+    border: solid 3px rgb(219, 72, 72);
+    box-shadow: 10px 10px 10px black; 
 }
 
 /* SECCION FOOTER */
 
 .fondoLogos{
     height: 100px;
+    padding: 10px;
 }
 
 /* MEDIA QUERIES TABLET */
