@@ -1,5 +1,9 @@
 /* CONTENEDORES GENERALES */
 
+.list-group-item h3{
+    color: rgba(255, 0, 0, 0.745);
+}
+
 .containerSection{
     border: solid 10px rgb(255, 255, 255);
     line-height: 35px;
@@ -210,10 +214,7 @@ header{
 /* SECCION 3 (ESPACIOS) */
 
 .containerEspacios{
-    width: 550px;
-    border: solid 1px rgb(219, 72, 72);
-    padding: 20px;
-    margin: 20px;
+    margin-bottom: 10px;
 }
 
 .fondoEspacios{
@@ -355,21 +356,6 @@ footer ul li{
 
     .containerFondo{
         height: 20rem;
-    }
-
-/* PAGINA 3 (CLASES Y PROFESORES) */
-
-    .containerClases{
-        width: auto;
-        padding: 10px;
-    }
-
-    .containerClases h2{
-        font-size: 52px;
-    }
-
-    .fondoClases2{
-        box-shadow: 5px 5px 5px black;
     }
 
 /* PAGINA 4 (ESPACIOS) */
