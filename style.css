@@ -10,24 +10,6 @@
     border-radius: 40px;
 }
 
-.containerSection h1{
-    text-align: center;
-    font-size: 70px;
-    margin: 40px 0px 40px 0px;
-}
-
-.containerSection h2{
-    text-align: center;
-    font-size: 70px;
-    margin: 40px 0px 40px 0px;
-}
-
-.containerSectionDiv h3{
-    text-align: center;
-    font-size: 35px;
-    margin: 2px;
-}
-
 .containerSectionDiv{
     display: flex;
     flex-direction: row;
@@ -40,20 +22,6 @@
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-}
-
-.containerSectionGrid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 10px 10px;
-    justify-items: center;
-}
-
-.containerSectionGrid h3{
-    text-align: center;
-    font-size: 25px;
-    margin: 2px;
 }
 
 .containerTitulosIndex{
@@ -103,32 +71,6 @@ p{
 
 ul{
     list-style-type: none;
-}
-
-.boton{
-    text-align: center;
-    margin: 20px auto;
-}
-
-.boton a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-weight: 500;
-    font-size: 24px;
-    text-transform: uppercase;
-    transition: all 0.3s;
-
-    background-color: rgb(244, 241, 81);
-    width: fit-content;
-    border: solid 3px rgb(0, 0, 0);
-    border-radius: 30px;
-    padding: 5px 15px;
-    margin: 20px auto;
-}
-
-.boton a:hover{
-    color: rgb(244, 241, 81);
-    background-color: black;
 }
 
 /* HEADER */
@@ -213,23 +155,8 @@ header{
 
 /* SECCION 3 (ESPACIOS) */
 
-.containerEspacios{
-    margin-bottom: 10px;
-}
-
-.fondoEspacios{
-    height: 400px;
-    width: 400px;
-    border: solid 1px rgb(219, 72, 72);
-}
-
-.fondoEspacios2{
-    height: 400px;
-    width: 400px;
-    border: solid 3px rgb(219, 72, 72);
-    margin-top: 10px;
-    padding: 5px;
-    box-shadow: 10px 10px 10px black; 
+.card{
+    margin-bottom: 15px;
 }
 
 /* SECCION 4 (CONTACTO) */
@@ -271,11 +198,6 @@ footer ul li{
     width: 60px;
 }
 
-.fondoLogos{
-    height: 100px;
-    padding: 10px;
-}
-
 /* MEDIA QUERIES TABLET */
 
 /* CONTENEDORES GENERALES */
@@ -288,26 +210,11 @@ footer ul li{
         margin: 0%;
     }
 
-    .containerSectionGrid{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .containerSectionDiv2{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-    }
-
-    /* ETIQUETAS */
-
-    .boton{
-        padding: 4px;
-        margin-bottom: 10px;
-    }
-
-    .boton a {
-        font-size: 26px;
     }
 
 /* HEADER */
@@ -322,20 +229,11 @@ footer ul li{
 /* CONTENEDORES GENERALES */
 
 @media screen and (max-width: 320px){
-    .containerSectionGrid{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
     .containerSectionDiv{
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         margin: 0%;    
-    }
-
-    .containerSectionDiv img{
-        max-width: 100%;
-        width: 100%;
     }
 
     .containerSection h2{
@@ -356,22 +254,6 @@ footer ul li{
 
     .containerFondo{
         height: 20rem;
-    }
-
-/* PAGINA 4 (ESPACIOS) */
-
-    .containerEspacios{
-        width: auto;
-        padding: 10px;
-    }
-
-    .containerEspacios h2{
-        font-size: 40px;
-    }
-
-    .fondoEspacios2{
-        max-width: 100%;
-        box-shadow: 5px 5px 5px black;
     }
 
 /* PAGINA 5 (CONTACTO) */
