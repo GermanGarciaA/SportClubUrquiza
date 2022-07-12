@@ -45,10 +45,10 @@
 /* ETIQUETAS */
 
 h1{
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-family: 'Staatliches', 'cursive';
     text-align: center;
-    font-size: 68px;
+    line-height: 1.6;
+    font-size: 60px;
 }
 
 h2{
@@ -61,7 +61,7 @@ h2{
 h3{
     font-family: 'Staatliches', 'cursive';
     text-align: center;
-    font-size: 41px;
+    font-size: 30px;
     margin: 3px;
 }
 
@@ -80,6 +80,12 @@ p{
 
 ul{
     list-style-type: none;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
 }
 
 /* HEADER */
