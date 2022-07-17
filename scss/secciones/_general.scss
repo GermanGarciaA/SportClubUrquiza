@@ -1,0 +1,44 @@
+.containerSection{
+    border: solid 10px rgb(255, 255, 255);
+    line-height: 35px;
+    border-radius: 40px;
+}
+
+.containerSectionDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerSectionDiv2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerTitulosIndex{
+    background: $gradiente-titulos;
+}
+
+.containerTitulos{
+    font-size: 35px;
+    background: $gradiente-titulos;
+}
+
+.colorTitulos{
+    color: $color-principal;
+}
+
+.botonIndex{
+
+    a{
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

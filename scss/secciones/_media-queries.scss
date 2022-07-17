@@ -1,0 +1,64 @@
+/* MEDIA QUERIES TABLET */
+
+/* CONTENEDORES GENERALES */
+
+@media screen and (max-width: 768px){
+    .containerSectionDiv{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .containerSectionDiv2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* HEADER */
+
+    .navegador li{  
+        margin: -15px;
+    }
+}
+
+/* MEDIA QUERIES MOBILE */
+
+/* CONTENEDORES GENERALES */
+
+@media screen and (max-width: 320px){
+    .containerSectionDiv{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0%;    
+    }
+
+    .containerSection h2{
+        font-size: 44px;
+    }
+
+/* ETIQUETAS */
+
+    h2{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size: 35px;
+    }
+
+/* SECCION 0 */
+
+    .containerFondo{
+        height: 20rem;
+    }
+
+/* PAGINA 5 (CONTACTO) */
+
+    .fondoFormulario{
+        text-align: center;
+    }
+}
