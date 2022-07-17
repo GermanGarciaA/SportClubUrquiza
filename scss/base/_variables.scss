@@ -1,5 +1,8 @@
-$color-principal: rgba(255, 0, 0, 0.745);
-$color-secundario: rgb(219, 72, 72);
+$colores: (
+    "color-principal": rgba(255, 0, 0, 0.745),
+    "color-secundario": rgb(219, 72, 72)
+);
+
 $gradiente-titulos: linear-gradient(45deg, rgb(255, 255, 255),rgba(255, 0, 0, 0.516), rgb(255, 255, 255));
 
 $tipografia-principal: 'Staatliches', 'cursive';

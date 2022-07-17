@@ -23,7 +23,7 @@ h4{
     font-family: $tipografia-principal;
     text-align: center;
     font-size: 50px;
-    color: $color-principal;
+    color: map-get($colores, "color-principal");
 }
 
 p{

@@ -28,7 +28,7 @@
 }
 
 .colorTitulos{
-    color: $color-principal;
+    color: map-get($colores, "color principal");
 }
 
 .botonIndex{

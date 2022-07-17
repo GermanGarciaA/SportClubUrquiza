@@ -22,9 +22,6 @@
   font-size: 35px;
   background: linear-gradient(45deg, white, rgba(255, 0, 0, 0.516), white); }
 
-.colorTitulos {
-  color: rgba(255, 0, 0, 0.745); }
-
 .botonIndex a {
   text-decoration: none;
   color: black; }
@@ -108,7 +105,7 @@ header {
   justify-content: space-between; }
 
 .navegador {
-  font-family: 'Staatliches', 'cursive';
+  font-family: "Staatliches", "cursive";
   width: 100%; }
 
 .navegador ul {
@@ -128,7 +125,6 @@ header {
       font-size: 30px;
       font-weight: 500; }
       .navegador ul li a:hover {
-        color: rgba(255, 0, 0, 0.745);
         text-decoration: underline; }
 
 .logoHeader {

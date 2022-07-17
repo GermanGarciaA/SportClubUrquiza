@@ -6,7 +6,7 @@ header{
 }
 
 .navegador{
-    font-family: 'Staatliches', 'cursive';
+    font-family: $tipografia-principal;
     width: 100%; 
 }
 
@@ -32,7 +32,7 @@ header{
                 font-weight: 500;
                 
                 &:hover{
-                    color: $color-principal;
+                    color: map-get($colores, "colore-principal");
                     text-decoration: underline;
                 }
             }
