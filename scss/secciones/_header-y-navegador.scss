@@ -32,7 +32,7 @@ header{
                 font-weight: 500;
                 
                 &:hover{
-                    color: map-get($colores, "colore-principal");
+                    color: map-get($colores, "color-principal");
                     text-decoration: underline;
                 }
             }
