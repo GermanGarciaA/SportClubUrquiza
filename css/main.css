@@ -22,6 +22,9 @@
   font-size: 35px;
   background: linear-gradient(45deg, white, rgba(255, 0, 0, 0.516), white); }
 
+.colorTitulos {
+  color: rgba(255, 0, 0, 0.745); }
+
 .botonIndex a {
   text-decoration: none;
   color: black; }
