@@ -6,7 +6,7 @@ header{
 }
 
 .navegador{
-    font-family: $tipografia-principal;
+    font-family: map-get($tipografias, "tipografia-principal");
     width: 100%; 
 }
 

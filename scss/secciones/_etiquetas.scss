@@ -1,33 +1,33 @@
 h1{
-    font-family: $tipografia-principal;
+    font-family: map-get($tipografias, "tipografia-principal");
     text-align: center;
     line-height: 1.6;
     font-size: $dimension-titulos;
 }
 
 h2{
-    font-family: $tipografia-principal;
+    font-family: map-get($tipografias, "tipografia-principal");
     text-align: center;
     line-height: 1.6;
     font-size: $dimension-titulos;
 }
 
 h3{
-    font-family: $tipografia-principal;
+    font-family: map-get($tipografias, "tipografia-principal");
     text-align: center;
     font-size: 30px;
     margin: 3px;
 }
 
 h4{
-    font-family: $tipografia-principal;
+    font-family: map-get($tipografias, "tipografia-principal");
     text-align: center;
     font-size: 50px;
     color: map-get($colores, "color-principal");
 }
 
 p{
-    font-family: $tipografia-secundaria;
+    font-family: map-get($tipografias, "tipografia-secundaria");
     text-align: center;
     font-size: 20px; 
 }

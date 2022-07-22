@@ -19,8 +19,12 @@
 
     /* HEADER */
 
-    .navegador li{  
-        margin: -15px;
+    .navegador ul{
+
+        li{
+            padding: 1px;
+            margin: 1px;
+        } 
     }
 }
 
@@ -38,6 +42,16 @@
 
     .containerSection h2{
         font-size: 44px;
+    }
+
+/* HEADER */
+
+    .navegador ul{
+
+        li{
+            padding: 1px;
+            margin: 1px;
+        } 
     }
 
 /* ETIQUETAS */
