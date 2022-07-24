@@ -5,6 +5,9 @@ h1, h2 {
   font-size: 60px;
   padding-bottom: 10px; }
 
+.containerTitulosIndex, .containerTitulos {
+  background: linear-gradient(45deg, white, rgba(255, 0, 0, 0.516), white); }
+
 * {
   margin: 0%;
   padding: 0%; }
@@ -26,12 +29,8 @@ h1, h2 {
   align-items: center;
   flex-direction: row-reverse; }
 
-.containerTitulosIndex {
-  background: linear-gradient(45deg, white, rgba(255, 0, 0, 0.516), white); }
-
 .containerTitulos {
-  font-size: 35px;
-  background: linear-gradient(45deg, white, rgba(255, 0, 0, 0.516), white); }
+  font-size: 35px; }
 
 .colorTitulos {
   color: rgba(255, 0, 0, 0.745); }
@@ -46,7 +45,7 @@ h3 {
   font-family: "Staatliches" "cursive";
   text-align: center;
   font-size: 30px;
-  margin: 3px; }
+  color: rgba(255, 0, 0, 0.745); }
 
 h4 {
   font-family: "Staatliches" "cursive";
@@ -57,7 +56,8 @@ h4 {
 p {
   font-family: "Inter" "sans-serif";
   text-align: center;
-  font-size: 18px; }
+  font-size: 18px;
+  color: #303030; }
 
 ul {
   list-style-type: none; }

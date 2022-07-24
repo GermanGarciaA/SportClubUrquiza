@@ -1,29 +1,21 @@
 h1{
-    @extend %etiquetasH;
+    @extend %etiquetasH1yH2;
 }
 
 h2{
-    @extend %etiquetasH;
+    @extend %etiquetasH1yH2;
 }
 
 h3{
-    font-family: map-get($tipografias, "tipografia-principal");
-    text-align: center;
-    font-size: 30px;
-    margin: 3px;
+    @include etiquetasHyP(map-get($tipografias, "tipografia-principal"), center, 30px, map-get($colores, "color-principal"));
 }
 
 h4{
-    font-family: map-get($tipografias, "tipografia-principal");
-    text-align: center;
-    font-size: 50px;
-    color: map-get($colores, "color-principal");
+    @include etiquetasHyP(map-get($tipografias, "tipografia-principal"), center, 50px, map-get($colores, "color-principal"));
 }
 
 p{
-    font-family: map-get($tipografias, "tipografia-secundaria");
-    text-align: center;
-    font-size: 18px; 
+    @include etiquetasHyP(map-get($tipografias, "tipografia-secundaria"), center, 18px, rgb(48, 48, 48));
 }
 
 ul{

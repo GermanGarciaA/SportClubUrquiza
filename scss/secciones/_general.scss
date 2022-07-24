@@ -18,12 +18,12 @@
 }
 
 .containerTitulosIndex{
-    background: $gradiente-titulos;
+    @extend %containerTitulos;
 }
 
 .containerTitulos{
+    @extend %containerTitulos;
     font-size: 35px;
-    background: $gradiente-titulos;
 }
 
 .colorTitulos{
