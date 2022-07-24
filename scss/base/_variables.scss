@@ -17,6 +17,7 @@ $dimension-titulos: 60px;
     text-align: center;
     line-height: 1.6;
     font-size: $dimension-titulos;
+    padding-bottom: 10px;
 }
 
 @mixin displayFlex ($flexDirection){
