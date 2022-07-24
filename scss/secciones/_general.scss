@@ -10,17 +10,11 @@
 }
 
 .containerSectionDiv{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    @include displayFlex(row);
 }
 
 .containerSectionDiv2{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
+    @include displayFlex(row-reverse);
 }
 
 .containerTitulosIndex{

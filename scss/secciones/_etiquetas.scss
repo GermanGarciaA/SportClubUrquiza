@@ -1,15 +1,9 @@
 h1{
-    font-family: map-get($tipografias, "tipografia-principal");
-    text-align: center;
-    line-height: 1.6;
-    font-size: $dimension-titulos;
+    @extend %etiquetasH;
 }
 
 h2{
-    font-family: map-get($tipografias, "tipografia-principal");
-    text-align: center;
-    line-height: 1.6;
-    font-size: $dimension-titulos;
+    @extend %etiquetasH;
 }
 
 h3{
@@ -29,7 +23,7 @@ h4{
 p{
     font-family: map-get($tipografias, "tipografia-secundaria");
     text-align: center;
-    font-size: 20px; 
+    font-size: 18px; 
 }
 
 ul{

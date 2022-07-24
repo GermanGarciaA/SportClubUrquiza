@@ -1,15 +1,28 @@
 $colores: (
-    "color-principal": rgba(255, 0, 0, 0.745),
-    "color-secundario": rgb(219, 72, 72)
+    color-principal: rgba(255, 0, 0, 0.745),
+    color-secundario: rgb(219, 72, 72)
 );
 
 $tipografias: (
-    "tipografia-principal": 'Staatliches' 'cursive',
-    "tipografia-secundaria": 'Inter'
+    tipografia-principal: 'Staatliches' 'cursive',
+    tipografia-secundaria: 'Inter' 'sans-serif'
 );
 
 $gradiente-titulos: linear-gradient(45deg, rgb(255, 255, 255),rgba(255, 0, 0, 0.516), rgb(255, 255, 255));
 
 $dimension-titulos: 60px;
 
+%etiquetasH{
+    font-family: map-get($tipografias, "tipografia-principal");
+    text-align: center;
+    line-height: 1.6;
+    font-size: $dimension-titulos;
+}
+
+@mixin displayFlex ($flexDirection){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: $flexDirection;
+}
 
