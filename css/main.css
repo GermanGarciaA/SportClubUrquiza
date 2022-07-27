@@ -88,8 +88,9 @@ ul {
 .fondoContacto {
   height: 150px;
   width: 200px;
-  border: solid 5px black;
-  border-radius: 50px;
+  border: solid 3px #db4848;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 30px;
   margin-top: 10px; }
 
 .fondoFormulario {
