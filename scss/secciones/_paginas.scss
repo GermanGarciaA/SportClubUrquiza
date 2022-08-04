@@ -27,6 +27,20 @@
     }
 }
 
+.cardsPlanes{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.svgCheck{
+    color: green;
+}
+
+.svgCruz{
+    color: red;
+}
+
 /* SECCION 3 (ESPACIOS) */
 
 .card{

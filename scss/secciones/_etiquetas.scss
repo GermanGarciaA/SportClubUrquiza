@@ -14,6 +14,12 @@ h4{
     @include etiquetasHyP(map-get($tipografias, "tipografia-principal"), center, 50px, map-get($colores, "color-principal"));
 }
 
+h5{
+    @include etiquetasHyP(map-get($tipografias, "tipografia-principal"), left, 16px, rgb(48, 48, 48));
+    margin: 0px;
+    line-height: 28px;
+}
+
 p{
     @include etiquetasHyP(map-get($tipografias, "tipografia-secundaria"), center, 18px, rgb(48, 48, 48));
 }

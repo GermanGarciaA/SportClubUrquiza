@@ -53,6 +53,14 @@ h4 {
   font-size: 50px;
   color: rgba(255, 0, 0, 0.745); }
 
+h5 {
+  font-family: "Staatliches" "cursive";
+  text-align: left;
+  font-size: 16px;
+  color: #303030;
+  margin: 0px;
+  line-height: 28px; }
+
 p {
   font-family: "Inter" "sans-serif";
   text-align: center;
@@ -79,6 +87,17 @@ ul {
   color: #db4848; }
   .botonPlanes a:hover {
     text-decoration: underline; }
+
+.cardsPlanes {
+  display: flex;
+  justify-content: space-between;
+  list-style: none; }
+
+.svgCheck {
+  color: green; }
+
+.svgCruz {
+  color: red; }
 
 /* SECCION 3 (ESPACIOS) */
 .card {
