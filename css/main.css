@@ -99,6 +99,10 @@ ul {
 .svgCruz {
   color: red; }
 
+/* SECCION 2 (CLASES Y PROFESORES) */
+.cardsClases {
+  height: 625px; }
+
 /* SECCION 3 (ESPACIOS) */
 .card {
   margin-bottom: 15px; }
@@ -109,7 +113,7 @@ ul {
   width: 200px;
   border: solid 3px #db4848;
   box-shadow: 10px 10px 10px black;
-  border-radius: 30px;
+  border-radius: 15px;
   margin-top: 10px; }
 
 .fondoFormulario {
@@ -190,10 +194,16 @@ footer ul {
     flex-direction: column;
     justify-content: space-around;
     align-items: center; }
+  /* ETIQUETAS */
+  h3 {
+    font-size: 24px; }
   /* HEADER */
   .navegador ul li {
     padding: 1px;
-    margin: 1px; } }
+    margin: 1px; }
+  /* SECCION 2 (CLASES Y PROFESORES) */
+  .cardsClases {
+    height: 600px; } }
 
 /* MEDIA QUERIES MOBILE */
 /* CONTENEDORES GENERALES */

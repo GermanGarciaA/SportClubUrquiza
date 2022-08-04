@@ -17,7 +17,13 @@
         align-items: center;
     }
 
-    /* HEADER */
+/* ETIQUETAS */
+
+    h3{
+        font-size: 24px;
+    }
+
+/* HEADER */
 
     .navegador ul{
 
@@ -25,6 +31,12 @@
             padding: 1px;
             margin: 1px;
         } 
+    }
+
+/* SECCION 2 (CLASES Y PROFESORES) */
+
+    .cardsClases{
+        height: 600px;
     }
 }
 
