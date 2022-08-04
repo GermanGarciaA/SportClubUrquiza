@@ -24,11 +24,11 @@ $dimension-titulos: 60px;
     background: $gradiente-titulos;
 }
 
-@mixin displayFlex ($flexDirection){
+%displayFlex{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: $flexDirection;
+    flex-direction: row;
 }
 
 @mixin etiquetasHyP ($fontFamily, $textAling, $fontSize, $color){

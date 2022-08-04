@@ -1,26 +1,15 @@
 /* MEDIA QUERIES TABLET */
 
-/* CONTENEDORES GENERALES */
-
 @media screen and (max-width: 768px){
-    .containerSectionDiv{
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 0%;
-    }
-
-    .containerSectionDiv2{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
 
 /* ETIQUETAS */
 
     h3{
         font-size: 24px;
+    }
+
+    h5{
+        font-size: 18px;
     }
 
 /* HEADER */
@@ -33,6 +22,18 @@
         } 
     }
 
+/* SECCION 1 (PLANES) */
+
+    .svgCheck{
+        height: 27px;
+        width: 27px;
+    }
+    
+    .svgCruz{
+        height: 27px;
+        width: 27px;
+    }
+
 /* SECCION 2 (CLASES Y PROFESORES) */
 
     .cardsClases{
@@ -42,14 +43,14 @@
 
 /* MEDIA QUERIES MOBILE */
 
+@media screen and (max-width: 320px){
+
 /* CONTENEDORES GENERALES */
 
-@media screen and (max-width: 320px){
     .containerSectionDiv{
         flex-direction: column;
+        gap: 50px;
         flex-wrap: wrap;
-        justify-content: center;
-        margin: 0%;    
     }
 
     .containerSection h2{
@@ -84,9 +85,25 @@
         font-size: 40px;
     }
 
+    h5{
+        font-size: 16px;
+    }
+
 /* SECCION 0 */
 
     .containerFondo{
         height: 20rem;
+    }
+
+/* SECCION 1 (PLANES) */
+
+    .svgCheck{
+        height: 25px;
+        width: 25px;
+    }
+    
+    .svgCruz{
+        height: 25px;
+        width: 25px;
     }
 }

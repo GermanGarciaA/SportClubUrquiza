@@ -10,11 +10,7 @@
 }
 
 .containerSectionDiv{
-    @include displayFlex(row);
-}
-
-.containerSectionDiv2{
-    @include displayFlex(row-reverse);
+    @extend %displayFlex;
 }
 
 .containerTitulosIndex{
@@ -38,6 +34,7 @@
 
         &:hover{
             text-decoration: underline;
+            color: map-get($colores, "color-secundario");
         }
     }
 }

@@ -8,6 +8,12 @@ h1, h2 {
 .containerTitulosIndex, .containerTitulos {
   background: linear-gradient(45deg, white, rgba(255, 0, 0, 0.516), white); }
 
+.containerSectionDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row; }
+
 * {
   margin: 0%;
   padding: 0%; }
@@ -16,18 +22,6 @@ h1, h2 {
   border: solid 10px white;
   line-height: 35px;
   border-radius: 40px; }
-
-.containerSectionDiv {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row; }
-
-.containerSectionDiv2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: row-reverse; }
 
 .containerTitulos {
   font-size: 35px; }
@@ -39,7 +33,8 @@ h1, h2 {
   text-decoration: none;
   color: black; }
   .botonIndex a:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: #db4848; }
 
 h3 {
   font-family: "Staatliches" "cursive";
@@ -86,7 +81,8 @@ ul {
   text-decoration: none;
   color: #db4848; }
   .botonPlanes a:hover {
-    text-decoration: underline; }
+    text-decoration: underline;
+    color: black; }
 
 .cardsPlanes {
   display: flex;
@@ -182,37 +178,34 @@ footer ul {
     width: 60px; }
 
 /* MEDIA QUERIES TABLET */
-/* CONTENEDORES GENERALES */
 @media screen and (max-width: 768px) {
-  .containerSectionDiv {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0%; }
-  .containerSectionDiv2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; }
   /* ETIQUETAS */
   h3 {
     font-size: 24px; }
+  h5 {
+    font-size: 18px; }
   /* HEADER */
   .navegador ul li {
     padding: 1px;
     margin: 1px; }
+  /* SECCION 1 (PLANES) */
+  .svgCheck {
+    height: 27px;
+    width: 27px; }
+  .svgCruz {
+    height: 27px;
+    width: 27px; }
   /* SECCION 2 (CLASES Y PROFESORES) */
   .cardsClases {
     height: 600px; } }
 
 /* MEDIA QUERIES MOBILE */
-/* CONTENEDORES GENERALES */
 @media screen and (max-width: 320px) {
+  /* CONTENEDORES GENERALES */
   .containerSectionDiv {
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0%; }
+    gap: 50px;
+    flex-wrap: wrap; }
   .containerSection h2 {
     font-size: 44px; }
   /* HEADER */
@@ -228,6 +221,15 @@ footer ul {
     font-size: 20px; }
   h4 {
     font-size: 40px; }
+  h5 {
+    font-size: 16px; }
   /* SECCION 0 */
   .containerFondo {
-    height: 20rem; } }
+    height: 20rem; }
+  /* SECCION 1 (PLANES) */
+  .svgCheck {
+    height: 25px;
+    width: 25px; }
+  .svgCruz {
+    height: 25px;
+    width: 25px; } }
