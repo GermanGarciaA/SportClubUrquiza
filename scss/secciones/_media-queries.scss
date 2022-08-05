@@ -41,7 +41,31 @@
     }
 }
 
-/* MEDIA QUERIES MOBILE */
+/* MEDIA QUERIES MOBILE 425 */
+
+/* SECCION 5 (CONTACTO) */
+
+@media screen and (max-width: 425px){
+    .containerSectionDiv{
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+}
+
+/* MEDIA QUERIES MOBILE 375 */
+
+/* SECCION 5 (CONTACTO) */
+
+@media screen and (max-width: 375px){
+    .containerSectionDiv{
+        flex-direction: column;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+}
+
+/* MEDIA QUERIES MOBILE 320 */
 
 @media screen and (max-width: 320px){
 
