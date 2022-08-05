@@ -177,6 +177,9 @@ footer ul {
     margin: 5px 10px;
     width: 60px; }
 
+.svgRedes {
+  color: #db4848; }
+
 /* MEDIA QUERIES TABLET */
 @media screen and (max-width: 768px) {
   /* ETIQUETAS */
