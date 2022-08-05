@@ -104,14 +104,6 @@ ul {
   margin-bottom: 15px; }
 
 /* SECCION 4 (CONTACTO) */
-.fondoContacto {
-  height: 150px;
-  width: 200px;
-  border: solid 3px #db4848;
-  box-shadow: 10px 10px 10px black;
-  border-radius: 15px;
-  margin-top: 10px; }
-
 .fondoFormulario {
   text-align: center;
   font-size: 20px;
@@ -167,7 +159,7 @@ footer {
   margin-top: 30px; }
 
 .footerContacto {
-  margin-top: 108px; }
+  margin-top: 119px; }
 
 footer ul {
   display: flex;
