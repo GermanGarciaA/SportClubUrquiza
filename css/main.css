@@ -208,7 +208,10 @@ footer ul {
   .containerSectionDiv {
     flex-direction: column;
     gap: 50px;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  /* SECCION 0 */
+  .containerFondo {
+    height: 20rem; } }
 
 /* MEDIA QUERIES MOBILE 320 */
 @media screen and (max-width: 320px) {
